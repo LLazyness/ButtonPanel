@@ -5,7 +5,7 @@ import axios from "axios";
 class Completeness extends Component {
     constructor(props){
         super(props);
-        this.state = {value: 'Комплектность', completenessIsFull : props.isFull};
+        this.state = {value: 'Комплектность', completenessIsFull : this.props.isFull};
         this.handleChange = this.handleChange.bind(this);
 
     }
@@ -45,6 +45,7 @@ class Completeness extends Component {
                 <div className={"completeness"}>
                    <p className={'nnsodIsComplete'}>{this.state.completenessIsFull ? 'Полный комплект' : 'Неполный комплект'}</p>
                 </div>
+                <br />
             </React.Fragment>
 
 
