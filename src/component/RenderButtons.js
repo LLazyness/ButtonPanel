@@ -1,7 +1,8 @@
 import React from "react";
 import axios from "axios";
-import Completeness from './Completeness'
-import Payment from './Payment'
+import Completeness from './ButtonComponents/Completeness'
+import Payment from './ButtonComponents/Payment'
+import ProcessingInSAPHCM from './ButtonComponents/ProcessingInSAPHCM'
 
 class RenderButtons extends React.Component{
     constructor(props){
@@ -39,6 +40,11 @@ class RenderButtons extends React.Component{
                     {this.state.result.payment.show &&
                     <div>
                         <Payment isPaid={this.state.result.payment.isPaid} />
+                    </div>
+                    }
+                    {this.state.result.processinginsaphcm.show &&
+                    <div>
+                        <ProcessingInSAPHCM isProcessed={this.state.result.processinginsaphcm.isProcessed}/>
                     </div>
                     }
                 </div>

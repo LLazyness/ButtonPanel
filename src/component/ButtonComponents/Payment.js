@@ -6,29 +6,32 @@ class Payment extends Component {
     constructor(props){
         super(props);
         this.handleChange = this.handleChange.bind(this);
-        this.state = {value: "Оплата"}
+        this.state = {value: "Оплата", paymentIsPaid: this.props.isPaid}
     }
 
     handleChange(event) {
         this.setState({value: event.target.value});
         if(event.target.value === 'isPaid' || event.target.value === 'isNotPaid') {
+            if ((event.target.value === 'isPaid') !== this.state.paymentIsPaid) {
+                const val = event.target.value === 'isPaid' ? 1 : 0;
+                axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.payment&ids=' + sessionStorage.getItem("ID") + '&value=' + val)
+                    .then((response) => {
+                        if (response.data.errMsg.length > 0) {
+                            alert(response.data.errMsg)
+                        }
+                        else {
+                            this.setState({paymentIsPaid: response.data.paymentIsPaid});
+                        }
 
-            axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.payment&ids=' + sessionStorage.getItem("ID") + '&value=' + event.target.value)
-                .then((response) => {
-                    if(response.data.errMsg.length > 0){
-                        alert (response.data.errMsg)
-                    }
-                    else {
-                        this.setState({paymentIsPaid: response.data.paymentIsPaid});
-                    }
-                    this.setState({value: "Оплата"});
-                })
-                .catch(error => {
-                    alert(error);
-                    this.setState({value: "Оплата"})
-                });
+                    })
+                    .catch(error => {
+                        alert(error);
+
+                    });
+            }
+            this.setState({value: "Оплата"})
         }
-    }
+     }
 
     render() {
         return (
@@ -41,7 +44,7 @@ class Payment extends Component {
                 <div className={"payment"}>
                     <p className={'nnsodIsPayment'}>{this.state.paymentIsPaid ? 'Оплачено' : 'Не оплачено'}</p>
                 </div>
-                <br />
+                <div className={"perenos"}></div>
             </React.Fragment>
         )
     }

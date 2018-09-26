@@ -14,24 +14,28 @@ class Completeness extends Component {
 
             this.setState({value: event.target.value});
             if(event.target.value === 'Full' || event.target.value === 'IsNotFull') {
-                axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.setincomplete&Id=' + sessionStorage.getItem("ID") + '&isIncomplete=' + event.target.value)
+                if((event.target.value === 'Full') !== this.state.completenessIsFull) {
+                    axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.setincomplete&Id=' + sessionStorage.getItem("ID") + '&isIncomplete=' + event.target.value)
 
-                    .then((response) => {
-                        if(response.data.errMsg.length > 0){
-                            alert (response.data.errMsg)
-                        }
-                        else {
-                            this.setState({completenessIsFull: response.data.completenessIsFull});
-                        }
-                        this.setState({value: "Комплектность"});
+                        .then((response) => {
+                            if (response.data.errMsg.length > 0) {
+                                alert(response.data.errMsg)
+                            }
+                            else {
+                                this.setState({completenessIsFull: response.data.completenessIsFull});
+                            }
+                            this.setState({value: "Комплектность"});
 
-                    })
+                        })
 
-                    .catch(error => {
-                        alert(error);
-                        this.setState({value: "Комплектность"})
-                    });
+                        .catch(error => {
+                            alert(error);
+
+                        });
+                }
+                this.setState({value: "Комплектность"});
             }
+
     }
 
     render() {
@@ -45,7 +49,7 @@ class Completeness extends Component {
                 <div className={"completeness"}>
                    <p className={'nnsodIsComplete'}>{this.state.completenessIsFull ? 'Полный комплект' : 'Неполный комплект'}</p>
                 </div>
-                <br />
+                <div className={"perenos"}></div>
             </React.Fragment>
 
 
