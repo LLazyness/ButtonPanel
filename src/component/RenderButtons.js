@@ -3,6 +3,7 @@ import axios from "axios";
 import Completeness from './ButtonComponents/Completeness'
 import Payment from './ButtonComponents/Payment'
 import ProcessingInSAPHCM from './ButtonComponents/ProcessingInSAPHCM'
+import CreateLinkToOneS from './ButtonComponents/CreateLinkToOneS'
 
 class RenderButtons extends React.Component{
     constructor(props){
@@ -45,6 +46,11 @@ class RenderButtons extends React.Component{
                     {this.state.result.processinginsaphcm.show &&
                     <div>
                         <ProcessingInSAPHCM isProcessed={this.state.result.processinginsaphcm.isProcessed}/>
+                    </div>
+                    }
+                    {this.state.result.createlinktoones.show &&
+                    <div>
+                        <CreateLinkToOneS />
                     </div>
                     }
                 </div>
