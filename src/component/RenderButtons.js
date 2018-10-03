@@ -4,6 +4,8 @@ import Completeness from './ButtonComponents/Completeness'
 import Payment from './ButtonComponents/Payment'
 import ProcessingInSAPHCM from './ButtonComponents/ProcessingInSAPHCM'
 import CreateLinkToOneS from './ButtonComponents/CreateLinkToOneS'
+import  UnlinkDocs from './ButtonComponents/UnlinkDocs'
+import CopyKey from './ButtonComponents/CopyKey'
 
 class RenderButtons extends React.Component{
     constructor(props){
@@ -51,6 +53,16 @@ class RenderButtons extends React.Component{
                     {this.state.result.createlinktoones.show &&
                     <div>
                         <CreateLinkToOneS />
+                    </div>
+                    }
+                    {this.state.result.unlinkdocs.show &&
+                    <div>
+                        <UnlinkDocs />
+                    </div>
+                    }
+                    {this.state.result.copykey.show &&
+                    <div>
+                        <CopyKey />
                     </div>
                     }
                 </div>
