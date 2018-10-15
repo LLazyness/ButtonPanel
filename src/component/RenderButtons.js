@@ -6,6 +6,16 @@ import ProcessingInSAPHCM from './ButtonComponents/ProcessingInSAPHCM'
 import CreateLinkToOneS from './ButtonComponents/CreateLinkToOneS'
 import  UnlinkDocs from './ButtonComponents/UnlinkDocs'
 import CopyKey from './ButtonComponents/CopyKey'
+import CreateDuplicate from './ButtonComponents/CreateDuplicate'
+import CreateComment from './ButtonComponents/CreateComment'
+import ReturnToIncoming from './ButtonComponents/ReturnToIncoming'
+import SendForReview from "./ButtonComponents/SendForReview";
+import Delete from './ButtonComponents/Delete'
+import PickForProcessing from './ButtonComponents/PickForProcessing'
+import SetPerformer from './ButtonComponents/SetPerformer'
+import PrintCorrectionSheet from './ButtonComponents/PrintCorrectionSheet'
+import PrintConnectList from './ButtonComponents/PrintConnectList'
+import Publish from './ButtonComponents/Publish'
 
 class RenderButtons extends React.Component{
     constructor(props){
@@ -13,9 +23,6 @@ class RenderButtons extends React.Component{
 
         this.state = {status: false};
         console.log(this.state.status);
-    }
-
-    componentDidMount(){
         axios({
             method:'get',
             url:sessionStorage.getItem('URL') + '?func=nnsodwebui.displaybuttons&Id=' + sessionStorage.getItem("ID")
@@ -26,6 +33,8 @@ class RenderButtons extends React.Component{
                 console.log(this.state.status);
             });
     }
+
+
 
     render() {
         console.log(this.state.status);
@@ -63,6 +72,56 @@ class RenderButtons extends React.Component{
                     {this.state.result.copykey.show &&
                     <div>
                         <CopyKey />
+                    </div>
+                    }
+                    {this.state.result.createduplicate.show &&
+                    <div>
+                        <CreateDuplicate />
+                    </div>
+                    }
+                    {this.state.result.createcomment.show &&
+                    <div>
+                        <CreateComment />
+                    </div>
+                    }
+                    {this.state.result.returntoincoming.show &&
+                    <div>
+                        <ReturnToIncoming />
+                    </div>
+                    }
+                    {this.state.result.sendforreview.show &&
+                    <div>
+                        <SendForReview />
+                    </div>
+                    }
+                    {this.state.result.delete.show &&
+                    <div>
+                        <Delete />
+                    </div>
+                    }
+                    {this.state.result.pickforprocessing.show &&
+                    <div>
+                        <PickForProcessing />
+                    </div>
+                    }
+                    {this.state.result.setperformer.show &&
+                    <div>
+                        <SetPerformer />
+                    </div>
+                    }
+                    {this.state.result.printcorrectionsheet.show &&
+                    <div>
+                        <PrintCorrectionSheet />
+                    </div>
+                    }
+                    {this.state.result.printconnectlist.show &&
+                    <div>
+                        <PrintConnectList />
+                    </div>
+                    }
+                    {this.state.result.publish.show &&
+                    <div>
+                        <Publish />
                     </div>
                     }
                 </div>
