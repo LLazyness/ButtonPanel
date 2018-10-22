@@ -16,6 +16,13 @@ import SetPerformer from './ButtonComponents/SetPerformer'
 import PrintCorrectionSheet from './ButtonComponents/PrintCorrectionSheet'
 import PrintConnectList from './ButtonComponents/PrintConnectList'
 import Publish from './ButtonComponents/Publish'
+import AcceptOriginal from './ButtonComponents/AcceptOriginal'
+import BankStatementCardRegistryLink from './ButtonComponents/BankStatementCardRegistryLink'
+import Suspend from './ButtonComponents/Suspend'
+import  ReturnToWork from './ButtonComponents/ReturnToWork'
+import Refuse from './ButtonComponents/Refuse'
+import Linked from './ButtonComponents/Linked'
+import Print from './ButtonComponents/Print'
 
 class RenderButtons extends React.Component{
     constructor(props){
@@ -122,6 +129,41 @@ class RenderButtons extends React.Component{
                     {this.state.result.publish.show &&
                     <div>
                         <Publish />
+                    </div>
+                    }
+                    {this.state.result.acceptoriginal.show &&
+                    <div>
+                        <AcceptOriginal />
+                    </div>
+                    }
+                    {this.state.result.bankstatementcardregistrylink.show &&
+                    <div>
+                        <BankStatementCardRegistryLink />
+                    </div>
+                    }
+                    {this.state.result.suspend.show &&
+                    <div>
+                        <Suspend />
+                    </div>
+                    }
+                    {this.state.result.returntowork.show &&
+                    <div>
+                        <ReturnToWork />
+                    </div>
+                    }
+                    {this.state.result.refuse.show &&
+                    <div>
+                        <Refuse />
+                    </div>
+                    }
+                    {this.state.result.linked.show &&
+                    <div>
+                        <Linked />
+                    </div>
+                    }
+                    {this.state.result.print.show &&
+                    <div>
+                        <Print />
                     </div>
                     }
                 </div>
