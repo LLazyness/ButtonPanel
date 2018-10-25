@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a0f323-6598-499b-883e-6e771007e080" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/RenderButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/RenderButtons.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,24 +91,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="7340" />
+          <entry key="js" value="9125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="7340" />
+          <entry key="JavaScript" value="9125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="30" />
+          <entry key="JavaScript" value="76" />
           <entry key="SourceMap" value="2" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="30" />
+          <entry key="js" value="76" />
           <entry key="map" value="2" />
+          <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -95,10 +120,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -107,46 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="90" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -155,10 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Print.js">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -167,10 +156,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="102" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -181,8 +206,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -193,20 +230,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="29" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -243,33 +268,37 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/component/Payment.js" />
         <option value="$PROJECT_DIR$/src/component/Completeness.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/UnlickDocs.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKeyToClipboard.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintContactSheet.js" />
+        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintContactSheet.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" />
-        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
       </list>
     </option>
   </component>
@@ -289,11 +318,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2022" />
+    <option name="y" value="50" />
+    <option name="width" value="1598" />
+    <option name="height" value="898" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,7 +361,7 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="main.13859608.js" type="620a8d5e:NestingTreeNode" />
+              <item name="main.fc016de9.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
@@ -365,6 +394,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -401,12 +431,12 @@
       <workItem from="1537522848395" duration="17929000" />
       <workItem from="1537859854134" duration="29568000" />
       <workItem from="1538122846950" duration="46701000" />
-      <workItem from="1539586577591" duration="26099000" />
+      <workItem from="1539586577591" duration="58773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225258000" />
+    <option name="totallyTimeSpent" value="257932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,10 +448,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2022" y="50" width="1598" height="898" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16282052" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -441,7 +471,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16282052" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -492,7 +522,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1536585018166" expanded="true" signature="84:91" ph="{&quot;react&quot;: &quot;^16.4.2&quot;...}" />
+            <marker date="1540302013245" expanded="true" signature="84:91" ph="{&quot;react&quot;: &quot;^16.4.2&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -508,35 +538,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Payment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/main.c72eedd9.js" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17144" column="12" selection-start-line="17144" selection-start-column="12" selection-end-line="17144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.3d265053.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-end-line="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-end-line="26" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -545,8 +627,188 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="22" lean-forward="true" selection-end-line="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Print.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -556,97 +818,7 @@
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="13" column="14" lean-forward="true" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="119" selection-start-line="11" selection-start-column="119" selection-end-line="11" selection-end-column="158" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="18" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="128" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="66" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="60" selection-end-line="26" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -655,98 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="90" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Print.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
