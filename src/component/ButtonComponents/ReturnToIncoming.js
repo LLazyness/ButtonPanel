@@ -11,6 +11,7 @@ class ReturnToIncoming extends Component {
     handleClick() {
         window.ReturnToIncoming(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

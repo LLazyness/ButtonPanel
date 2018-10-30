@@ -18,14 +18,17 @@ class ProcessingInSAPHCM extends Component {
                 axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.ProcessingInSAPHCM&ids=' + sessionStorage.getItem("ID") + '&value=' + val)
                     .then((response) => {
                         if (response.data.errMsg.length > 0) {
-                            alert(response.data.errMsg)
+                            alert(response.data.errMsg);
+                            document.location.reload(true);
                         }
                         else {
                             this.setState({isProcessed: response.data.isProcessed});
+                            document.location.reload(true);
                         }
                      })
                     .catch(error => {
                         alert(error);
+                        document.location.reload(true);
                     });
             }
             this.setState({value: "Обработка в SAP HCM"})

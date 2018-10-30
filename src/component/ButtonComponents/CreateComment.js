@@ -5,12 +5,12 @@ class CreateComment extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.CreateComment(sessionStorage.getItem('URL'),sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

@@ -11,6 +11,7 @@ class ReturnToWork extends Component {
     handleClick() {
         window.ReturnToWork(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

@@ -17,16 +17,17 @@ class Payment extends Component {
                 axios.get(sessionStorage.getItem('URL') + '?func=nnsodwebui.payment&ids=' + sessionStorage.getItem("ID") + '&value=' + val)
                     .then((response) => {
                         if (response.data.errMsg.length > 0) {
-                            alert(response.data.errMsg)
+                            alert(response.data.errMsg);
+                            document.location.reload(true);
                         }
                         else {
                             this.setState({paymentIsPaid: response.data.paymentIsPaid});
+                            document.location.reload(true);
                         }
-
                     })
                     .catch(error => {
                         alert(error);
-
+                        document.location.reload(true);
                     });
             }
             this.setState({value: "Оплата"})

@@ -11,6 +11,7 @@ class SendForReview extends Component {
     handleClick() {
         window.doSendForReview('true', 'NnSodSendForReview', 'nnsodwebui.sendforreview', sessionStorage.getItem('ID'), sessionStorage.getItem('ESCAPEREQUEST'));
     }
+
     render() {
         return (
             <React.Fragment>

@@ -5,12 +5,12 @@ class CreateDuplicate extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.CreateDuplicate(sessionStorage.getItem('URL'),sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

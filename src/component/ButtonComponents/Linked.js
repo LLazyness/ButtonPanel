@@ -7,12 +7,12 @@ class Linked extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.RegistryLinkedRks()
     }
+
     render() {
         return (
             <React.Fragment>

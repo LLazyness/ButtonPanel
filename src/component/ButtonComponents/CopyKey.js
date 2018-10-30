@@ -5,12 +5,12 @@ class CopyKey extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.copyKeyToClipboard(sessionStorage.getItem('URL'),sessionStorage.getItem('ID'), sessionStorage.getItem('NODENAME'));
     }
+
     render() {
         return (
             <React.Fragment>

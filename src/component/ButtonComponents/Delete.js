@@ -5,12 +5,12 @@ class Delete extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.doDelete('NnSodDelete','nnsodwebui.delete',sessionStorage.getItem('ID'),sessionStorage.getItem('ESCAPEREQUEST'));
     }
+
     render() {
         return (
             <React.Fragment>

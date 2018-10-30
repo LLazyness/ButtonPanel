@@ -11,6 +11,7 @@ class UnlinkDocs extends Component {
     handleClick() {
         window.doUnlink(sessionStorage.getItem('URL'),sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

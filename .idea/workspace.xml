@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a0f323-6598-499b-883e-6e771007e080" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" afterDir="false" />
@@ -91,24 +83,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="9125" />
+          <entry key="js" value="9209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="9125" />
+          <entry key="JavaScript" value="9209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="76" />
+          <entry key="JavaScript" value="77" />
           <entry key="SourceMap" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="76" />
+          <entry key="js" value="77" />
           <entry key="map" value="2" />
           <entry key="ts" value="1" />
         </counts>
@@ -119,6 +111,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,23 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -219,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -271,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/UnlickDocs.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKeyToClipboard.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintContactSheet.js" />
-        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" />
@@ -299,6 +290,7 @@
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
+        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
       </list>
     </option>
   </component>
@@ -318,7 +310,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="2022" />
     <option name="y" value="50" />
     <option name="width" value="1598" />
@@ -354,14 +346,6 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="main.fc016de9.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
@@ -431,12 +415,12 @@
       <workItem from="1537522848395" duration="17929000" />
       <workItem from="1537859854134" duration="29568000" />
       <workItem from="1538122846950" duration="46701000" />
-      <workItem from="1539586577591" duration="58773000" />
+      <workItem from="1539586577591" duration="60821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257932000" />
+    <option name="totallyTimeSpent" value="259980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +433,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2022" y="50" width="1598" height="898" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16282052" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -554,16 +537,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/main.3d265053.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -798,7 +771,7 @@
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -827,8 +800,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

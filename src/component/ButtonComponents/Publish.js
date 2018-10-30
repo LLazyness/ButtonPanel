@@ -11,6 +11,7 @@ class Publish extends Component {
     handleClick() {
         window.Publish(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'), false);
     }
+
     render() {
         return (
             <React.Fragment>

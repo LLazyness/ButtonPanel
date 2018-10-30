@@ -5,12 +5,12 @@ class BankStatementCardRegistryLink extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.popupWindow(sessionStorage.getItem('URL') + '?func=nnsodwebui.showbankstatementdocumentsregistry&nodeId='+ sessionStorage.getItem('ID'), '', 800, 500, 'yes', 'yes');
     }
+
     render() {
         return (
             <React.Fragment>

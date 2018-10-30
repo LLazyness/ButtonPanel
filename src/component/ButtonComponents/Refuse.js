@@ -10,6 +10,7 @@ class Refuse extends Component {
     handleClick() {
         window.Refuse(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'));
     }
+
     render() {
         return (
             <React.Fragment>

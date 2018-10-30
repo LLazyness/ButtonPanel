@@ -43,45 +43,6 @@ class RenderButtons extends React.Component{
             });
     }
 
-    collectButton = () => {
-        let result = [];
-        const components = {
-            "completeness": <Completeness isFull={this.state.result.completeness.isFull}/>,
-            "createlinktoones": <CreateLinkToOneS/>,
-            "unlinkdocs": <UnlinkDocs/>,
-            "copykey": <CopyKey/>,
-            "createduplicate": <CreateDuplicate/>,
-            "createcomment": <CreateComment/>,
-            "returntoincoming": <ReturnToIncoming/>,
-            "sendforreview": <SendForReview/>,
-            "delete": <Delete/>,
-            "pickforprocessing": <PickForProcessing/>,
-            "setperformer": <SetPerformer/>,
-            "printcorrectionsheet": <PrintCorrectionSheet/>,
-            "publish": <Publish/>,
-            "acceptoriginal": <AcceptOriginal/>,
-            "bankstatementcardregistrylink": <BankStatementCardRegistryLink/>,
-            "suspend": <Suspend/>,
-            "returntowork": <ReturnToWork/>,
-            "refuse": <Refuse/>,
-            "addpersonalnumberlist": <AddPersonalNumberList/>,
-            "linked": <Linked/>,
-            "print": <Print/>,
-            "fillingstorageattributes": <FillingStorageAttributes/>,
-            "payment": <Payment isPaid={this.state.result.payment.isPaid}/>,
-            "processinginsaphcm": <ProcessingInSAPHCM isProcessed={this.state.result.processinginsaphcm.isProcessed}/>,
-            "printconnectlist": <PrintConnectList/>,
-            "recievedoriginals": <RecievedOriginals/>,
-            "xrefconnect": <XRefConnect/>
-        };
-        for(var item in this.state.result){
-           if(this.state.result[item].show){
-                result.push(<div>{components[item]}</div>);
-           }
-        }
-        return result;
-    };
-
     render() {
         if (!this.state.status) {
             return (
@@ -91,7 +52,151 @@ class RenderButtons extends React.Component{
         else {
             return (
                 <div>
-                    {this.collectButton()}
+                    {this.state.result.completeness.show &&
+                    <div>
+                        <Completeness isFull={this.state.result.completeness.isFull} />
+                    </div>
+                    }
+                    {this.state.result.payment.show &&
+                    <div>
+                        <Payment isPaid={this.state.result.payment.isPaid} />
+                    </div>
+                    }
+                    {this.state.result.processinginsaphcm.show &&
+                    <div>
+                        <ProcessingInSAPHCM isProcessed={this.state.result.processinginsaphcm.isProcessed}/>
+                    </div>
+                    }
+                    {this.state.result.createlinktoones.show &&
+                    <div>
+                        <CreateLinkToOneS />
+                    </div>
+                    }
+                    {this.state.result.unlinkdocs.show &&
+                    <div>
+                        <UnlinkDocs />
+                    </div>
+                    }
+                    {this.state.result.copykey.show &&
+                    <div>
+                        <CopyKey />
+                    </div>
+                    }
+                    {this.state.result.createduplicate.show &&
+                    <div>
+                        <CreateDuplicate />
+                    </div>
+                    }
+                    {this.state.result.createcomment.show &&
+                    <div>
+                        <CreateComment />
+                    </div>
+                    }
+                    {this.state.result.returntoincoming.show &&
+                    <div>
+                        <ReturnToIncoming />
+                    </div>
+                    }
+                    {this.state.result.sendforreview.show &&
+                    <div>
+                        <SendForReview />
+                    </div>
+                    }
+                    {this.state.result.delete.show &&
+                    <div>
+                        <Delete />
+                    </div>
+                    }
+                    {this.state.result.pickforprocessing.show &&
+                    <div>
+                        <PickForProcessing />
+                    </div>
+                    }
+                    {this.state.result.setperformer.show &&
+                    <div>
+                        <SetPerformer />
+                    </div>
+                    }
+                    {this.state.result.printcorrectionsheet.show &&
+                    <div>
+                        <PrintCorrectionSheet />
+                    </div>
+                    }
+                    {this.state.result.printconnectlist.show &&
+                    <div>
+                        <PrintConnectList />
+                    </div>
+                    }
+                    {this.state.result.publish.show &&
+                    <div>
+                        <Publish />
+                    </div>
+                    }
+                    {this.state.result.acceptoriginal.show &&
+                    <div>
+                        <AcceptOriginal />
+                    </div>
+                    }
+                    {this.state.result.bankstatementcardregistrylink.show &&
+                    <div>
+                        <BankStatementCardRegistryLink />
+                    </div>
+                    }
+                    {this.state.result.suspend.show &&
+                    <div>
+                        <Suspend />
+                    </div>
+                    }
+                    {this.state.result.returntowork.show &&
+                    <div>
+                        <ReturnToWork />
+                    </div>
+                    }
+                    {this.state.result.refuse.show &&
+                    <div>
+                        <Refuse />
+                    </div>
+                    }
+                    {this.state.result.linked.show &&
+                    <div>
+                        <Linked />
+                    </div>
+                    }
+                    {this.state.result.print.show &&
+                    <div>
+                        <Print />
+                    </div>
+                    }
+                    {this.state.result.fillingstorageattributes.show &&
+                    <div>
+                        <FillingStorageAttributes />
+                    </div>
+                    }
+                    {this.state.result.fillingstorageattributes.show &&
+                    <div>
+                        <FillingStorageAttributes />
+                    </div>
+                    }
+                    {this.state.result.fillingstorageattributes.show &&
+                    <div>
+                        <FillingStorageAttributes />
+                    </div>
+                    }
+                    {this.state.result.addpersonalnumberlist.show &&
+                    <div>
+                        <AddPersonalNumberList />
+                    </div>
+                    }
+                    {this.state.result.recievedoriginals.show &&
+                    <div>
+                        <RecievedOriginals />
+                    </div>
+                    }
+                    {this.state.result.xrefconnect.show &&
+                    <div>
+                        <XRefConnect />
+                    </div>
+                    }
                 </div>
             )
         }

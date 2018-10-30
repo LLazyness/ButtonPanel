@@ -5,12 +5,12 @@ class CreateLinkToOneS extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
    handleClick() {
         window.doCommitLink(sessionStorage.getItem('URL'),sessionStorage.getItem('ID'), sessionStorage.getItem('SUBTYPE'));
     }
+
     render() {
         return (
             <React.Fragment>

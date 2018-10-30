@@ -5,12 +5,12 @@ class PrintConnectList extends Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this);
-
     }
 
     handleClick() {
         window.printContactSheet(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'), true);
     }
+
     render() {
         return (
             <React.Fragment>
