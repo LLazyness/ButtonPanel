@@ -1,20 +1,20 @@
 import React from "react";
 import {Component} from "react";
 
-class XRefConnect extends Component {
+class AddPersonalNumbersList extends Component {
     handleClick = () => {
-        window.getListRelatedRK(sessionStorage.getItem('URL'));
+        window.AddPersonalNumbersList(sessionStorage.getItem('URL'), sessionStorage.getItem('ID'));
     };
 
     render() {
         return (
             <React.Fragment>
                 <input className="nnsod-actions-neutral" type="button" onClick={this.handleClick}
-                       value="Открыть связанную Регистрационную карточку"/>
-                <div className={"perenos"}></div>
+                       value="Список добавлен"/>
+                <div className={"perenos"}/>
             </React.Fragment>
         )
     }
 }
 
-export default XRefConnect
+export default AddPersonalNumbersList
