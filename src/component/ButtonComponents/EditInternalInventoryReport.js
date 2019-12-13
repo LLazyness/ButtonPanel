@@ -1,20 +1,20 @@
 import React from "react";
 import {Component} from "react";
 
-class ReceivedOriginals extends Component {
+class EditInternalInventoryReport extends Component {
     handleClick = () => {
-        window.recieved_originals(sessionStorage.getItem('ID'));
+        window.getReport();
     };
 
     render() {
         return (
             <React.Fragment>
                 <input className="nnsod-actions-neutral" type="button" onClick={this.handleClick}
-                       value="Поступили оригиналы"/>
-                <div className={"perenos"}/>
+                       value="Редактировать"/>
+                <div className={"perenos"}></div>
             </React.Fragment>
         )
     }
 }
 
-export default ReceivedOriginals
+export default EditInternalInventoryReport

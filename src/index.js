@@ -1,7 +1,15 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import Button from "./container/RenderButtons";
+import configureStore from "./configureStore"
 
-import RenderButtons from "./component/RenderButtons.js"
-const rootClass = document.getElementById('root');
+const store = configureStore();
 
-render(<RenderButtons/>, rootClass);
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+    <Provider store={store}>
+        <Button />
+    </Provider>,
+    rootElement
+);

@@ -1,20 +1,23 @@
 import React from "react";
-import {Component} from "react";
+import {useDispatch} from "react-redux";
+import {loadAttachments} from "../../actions/Review/SendForReview";
 
-class SendForReview extends Component {
-    handleClick = () => {
-        window.doSendForReview('true', 'NnSodSendForReview', 'nnsodwebui.sendforreview', sessionStorage.getItem('ID'), sessionStorage.getItem('ESCAPEREQUEST'));
+const SendForReview = function () {
+    const dispatch = useDispatch();
+
+    //open modal window
+    const handleOpen = () => {
+        dispatch(loadAttachments());
     };
 
-    render() {
-        return (
-            <React.Fragment>
-                <input className="nnsod-actions-negative" type="button" onClick={this.handleClick}
-                       value="Вернуть на доработку"/>
-                <div className={"perenos"}/>
-            </React.Fragment>
-        )
-    }
-}
+    return (
+        <React.Fragment>
+            <button className="nnsod-actions-negative" type="button" onClick={handleOpen}>
+                Вернуть на доработку
+            </button>
+            <div className={"perenos"}/>
+        </React.Fragment>
+    )
+};
 
 export default SendForReview
