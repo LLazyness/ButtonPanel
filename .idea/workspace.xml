@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a0f323-6598-499b-883e-6e771007e080" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumbersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReceivedOriginals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/RenderButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/RenderButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,22 +16,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="355" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+        <entry file="file://$PROJECT_DIR$/src/container/RenderButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+            <state relative-caret-position="308">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
+        <entry file="file://$PROJECT_DIR$/src/component/FormComponent/SendForReviewComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="184">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ShowOnReview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,85 +70,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Payment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
+        <entry file="file://$PROJECT_DIR$/src/component/Modal/Error.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js">
+        <entry file="file://$PROJECT_DIR$/src/container/ButtonLogic/SendForReview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/FormComponent/ShowOnReviewComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/Modal/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReviewMass.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/src/actions/Review/SendForReview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="161">
+              <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,22 +144,52 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>completeness</find>
-      <find>res</find>
-      <find>root</find>
-      <find>cm</find>
-      <find>cmbase</find>
-      <find>sendF</find>
-      <find>коммен</find>
+      <find>selectAll</find>
+      <find>SET_ERROR</find>
+      <find>setGlobalError</find>
+      <find>console.l</find>
+      <find>consol</find>
+      <find>console</find>
+      <find>globalReason</find>
+      <find>modalHeader</find>
+      <find>buttonGrid</find>
+      <find>Вернуть на до</find>
+      <find>handleClick</find>
+      <find>REQUEST_GET_FAILURE</find>
+      <find>requestFailed</find>
+      <find>setReason</find>
+      <find>SendForReviewMass</find>
+      <find>button</find>
+      <find>checkboxes</find>
+      <find>ShowOnReview</find>
+      <find>SendForReview</find>
+      <find>changeReason</find>
+      <find>changeGlobalComment</find>
+      <find>change_check</find>
+      <find>CHANGE_CHECK</find>
+      <find>changeGlobalReason</find>
+      <find>console.log</find>
+      <find>() =</find>
+      <find>ModalComponent</find>
+      <find>changeFlag</find>
+      <find>() =&gt;</find>
+      <find>handleChange</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>serverData</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel</dir>
+      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\ButtonComponents</dir>
+      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -180,55 +198,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.html" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/component/Payment.js" />
-        <option value="$PROJECT_DIR$/src/component/Completeness.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/UnlickDocs.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKeyToClipboard.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintContactSheet.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/RecievedOriginals.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumberList.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReceivedOriginals.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Publish.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Print.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Linked.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/Delete.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumbersList.js" />
-        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
         <option value="$PROJECT_DIR$/build/asset-manifest.json" />
         <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/Payment.js" />
-        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ReceivedOriginals.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/KTMessage.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/OutdatedMessage.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/ConfidentiallyMessage.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/KTmessage.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/PrintInventory.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/EditInternalInventoryReport.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/UpdateInventory.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ErrorRegistry.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/RemoveFromInventory.js" />
+        <option value="$PROJECT_DIR$/src/component/RenderButtons.js" />
+        <option value="$PROJECT_DIR$/src/configure.js" />
+        <option value="$PROJECT_DIR$/src/configureStore.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/component/ButtonLogic/style.css" />
+        <option value="$PROJECT_DIR$/src/reducers/Review/index.js" />
+        <option value="$PROJECT_DIR$/src/component/Modal/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/Review/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/modal/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/Review/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/reducers/Review/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/component/FormComponent/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/reducers/modal/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/Review/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/component/style.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonLogic/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonLogic/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/reducers/Review/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/reducers/ServerData.js" />
+        <option value="$PROJECT_DIR$/src/actions/actions.js" />
+        <option value="$PROJECT_DIR$/src/component/FormComponent/SendForReviewComponent.js" />
+        <option value="$PROJECT_DIR$/src/component/FormComponent/ShowOnReviewComponent.js" />
+        <option value="$PROJECT_DIR$/src/container/ButtonLogic/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/container/ButtonLogic/ShowOnReview.js" />
+        <option value="$PROJECT_DIR$/src/container/RenderButtons.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/SendForReviewMass.js" />
         <option value="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" />
+        <option value="$PROJECT_DIR$/src/component/Modal/Error.js" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="10" />
+    <option name="y" value="121" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,19 +299,6 @@
             <path>
               <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
               <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="main.06cfb22e.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +312,7 @@
               <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="ButtonComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Modal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,15 +323,26 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/container/ButtonLogic" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\container\ButtonLogic" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\container" />
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\ButtonComponents" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\container\ButtonLogic" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\reducers\Review" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\ButtonComponents" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\MessageComponents" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,12 +386,28 @@
       <workItem from="1542803287314" duration="67000" />
       <workItem from="1542803409034" duration="411000" />
       <workItem from="1542803924789" duration="12000" />
-      <workItem from="1543586835161" duration="17974000" />
+      <workItem from="1543586835161" duration="26845000" />
+      <workItem from="1545221197951" duration="993000" />
+      <workItem from="1545395125269" duration="4097000" />
+      <workItem from="1547014886157" duration="599000" />
+      <workItem from="1547099648784" duration="3679000" />
+      <workItem from="1550559192700" duration="9647000" />
+      <workItem from="1551696201565" duration="599000" />
+      <workItem from="1552908594066" duration="4740000" />
+      <workItem from="1567509122197" duration="3589000" />
+      <workItem from="1568362531209" duration="8772000" />
+      <workItem from="1568903218526" duration="3895000" />
+      <workItem from="1569918714516" duration="3525000" />
+      <workItem from="1571734355034" duration="615000" />
+      <workItem from="1574064919319" duration="9784000" />
+      <workItem from="1574152391572" duration="104649000" />
+      <workItem from="1574663693929" duration="165779000" />
+      <workItem from="1576160850297" duration="19743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286854000" />
+    <option name="totallyTimeSpent" value="640430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,163 +421,82 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15276273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33038673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889503" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.30218068" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.30010834" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.46478873" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497309" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32959402" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15276273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.30218068" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33038673" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39889503" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3005525" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48429036" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497309" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32959402" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.js</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ButtonPanel$localhost_3000.dat" NAME="localhost:3000 Coverage Results" MODIFIED="1574190902618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_react-dom@16_umd_react-dom.development.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.0e3510c0.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.568250cc.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.d36f2212.js.map" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.51eb9ad8.js.map" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.a2c85679.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.c72eedd9.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReceivedOriginals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="17144" column="12" selection-start-line="17144" selection-start-column="12" selection-end-line="17144" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.3d265053.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="253">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/UnlinkDocs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="5" column="85" lean-forward="true" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Suspend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Refuse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToIncoming.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReceivedOriginals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintConnectList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -540,43 +507,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/FillingStorageAttributes.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/XRefConnect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="299">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumbersList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="276">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -584,14 +527,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.0c5ec47d.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -601,88 +542,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.952aadbd.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret column="20524" selection-start-column="20518" selection-end-column="20524" />
+        <state relative-caret-position="299">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://localhost:3000/static/js/bundle.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="389" column="8" selection-start-line="389" selection-start-column="8" selection-end-line="389" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/build/static/js/runtime-main.5f13161f.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/RemoveFromInventory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="5412" column="12" selection-start-line="5412" selection-start-column="8" selection-end-line="5412" selection-end-column="12" />
+        <state relative-caret-position="115">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="-2116">
+          <caret line="5412" column="12" selection-start-line="5412" selection-start-column="12" selection-end-line="5412" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ProcessingInSAPHCM.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/EditInternalInventoryReport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Payment.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ErrorRegistry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="185">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintInventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -691,44 +598,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="184">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/RenderButtons.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateComment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Linked.js">
+    <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateLinkToOneS.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ReturnToWork.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="230">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/istanbul-lib-coverage/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Review/ShowOnReview.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/Review/ShowOnReview.js" />
+    <entry file="file://$PROJECT_DIR$/src/component/MessageComponents/ConfidentiallyMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Select/Select.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,17 +691,194 @@
     <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="56" />
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/modal/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/modal/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="104" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonLogic/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/ButtonLogic/ShowOnReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Review/SendForReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3188">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/ServerData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Review/SendForReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Modal/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/FormComponent/SendForReviewComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/ButtonLogic/SendForReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/FormComponent/ShowOnReviewComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/ShowOnReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/ButtonLogic/ShowOnReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/RenderButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReviewMass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Modal/Error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
