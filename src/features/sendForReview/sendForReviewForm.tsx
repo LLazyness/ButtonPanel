@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from "react";
 import Checkbox from "@material-ui/core/Checkbox/index";
 import Grid from "@material-ui/core/Grid/index";
 import Select from "@material-ui/core/Select/index";
@@ -7,9 +7,22 @@ import TextField from "@material-ui/core/TextField/index";
 import Button from "@material-ui/core/Button/index";
 import FormHelperText from "@material-ui/core/FormHelperText/index";
 import {useStyles} from "../../component/style";
+import {sendForReviewType} from "./sendForReviewSlice";
 
-const SendForReviewForm = (props) => {
-    const classes = useStyles();
+
+interface sendForReviewFormProps extends sendForReviewType {
+    handleClose: any,
+    handleChange: any,
+    changeReason: any,
+    updateCommentValue: any,
+    handleSubmit: any,
+    selectAllChange: any,
+    changeGlobalReason: any,
+    changeGlobalComment: any,
+}
+
+const SendForReviewForm = (props: sendForReviewFormProps) => {
+    const classes = useStyles({});
 
     if (props.isInitialize) {
         return (
@@ -32,7 +45,8 @@ const SendForReviewForm = (props) => {
                         <Grid container direction="row" justify="center" alignItems="center"
                               className={classes.attachContainer}>
                             <Grid item xs={1} spacing={3}>
-                                <Checkbox color={"default"} className={classes.checkBox} checked={element.flag} onChange={props.handleChange(index)} />
+                                <Checkbox color={"default"} className={classes.checkBox} checked={element.flag}
+                                          onChange={props.handleChange(index)}/>
                             </Grid>
 
                             <Grid item xs={11} spacing={3}>
@@ -85,7 +99,8 @@ const SendForReviewForm = (props) => {
                     {props.isSelectAll &&
                     <Grid container direction="row" justify="center" alignItems="center" spacing={3}>
                         <Grid item xs={6}>
-                            <Select error={props.isRequired} className={classes.selectField} labelId="label" id="select" value={props.globalReason} onChange={props.changeGlobalReason()} displayEmpty>
+                            <Select error={props.isRequired} className={classes.selectField} labelId="label" id="select"
+                                    value={props.globalReason} onChange={props.changeGlobalReason()} displayEmpty>
                                 <MenuItem value="" disabled>Выберите причину возврата</MenuItem>
                                 {props.reasons.map((element) =>
                                     <MenuItem value={element}>{element}</MenuItem>)

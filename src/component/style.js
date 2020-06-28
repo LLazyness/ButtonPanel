@@ -37,4 +37,12 @@ export const useStyles = makeStyles(theme => ({
     table: {
         minWidth: 650,
     },
+    modalContainer: {
+        width: '1000px',
+    },
+    duplicateContainer: {
+        width: '1000px',
+        marginTop: '20px',
+    }
+
 }));

@@ -1,14 +1,16 @@
 import {useDispatch, useSelector} from "react-redux";
-import {modalClose} from "../../actions/Review/SendForReview";
+import {close} from "../../middleware/assyncActions";
 import React from "react";
-import ShowOnReviewComponent from "../../component/FormComponent/ShowOnReviewComponent";
+import ShowOnReviewForm from "./showOnReviewForm";
+import {reset} from "./showOnReviewSlice";
 
 const ShowOnReview = () => {
     const dispatch = useDispatch();
-    const attachments = useSelector(state => state.reviewReducer);
+    const attachments = useSelector(state => state.showOnReviewReducer.returned);
 
     const handleClose = () => {
-        dispatch(modalClose())
+        dispatch(close());
+        dispatch(reset());
     };
 
     const handleClick = () => {
@@ -16,7 +18,7 @@ const ShowOnReview = () => {
     };
 
     return (
-        <ShowOnReviewComponent close={handleClose} open={handleClick} elements={attachments.elements}/>
+        <ShowOnReviewForm close={handleClose} open={handleClick} returned={attachments}/>
     )
 };
 

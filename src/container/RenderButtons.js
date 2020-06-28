@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
 import {useSelector, useDispatch} from "react-redux";
 
-import {fetchGet} from '../actions/actions'
-
 import Completeness from '../component/ButtonComponents/Completeness';
 import Payment from '../component/ButtonComponents/Payment';
 import ProcessingInSAPHCM from '../component/ButtonComponents/ProcessingInSAPHCM';
@@ -12,7 +10,7 @@ import CopyKey from '../component/ButtonComponents/CopyKey';
 import CreateDuplicate from '../component/ButtonComponents/CreateDuplicate';
 import CreateComment from '../component/ButtonComponents/CreateComment';
 import ReturnToIncoming from '../component/ButtonComponents/ReturnToIncoming';
-import SendForReview from "../component/ButtonComponents/SendForReview";
+import SendForReviewButton from "../features/sendForReview/sendForReviewButton";
 import Delete from '../component/ButtonComponents/Delete';
 import PickForProcessing from '../component/ButtonComponents/PickForProcessing';
 import SetPerformer from '../component/ButtonComponents/SetPerformer';
@@ -38,24 +36,26 @@ import RemoveFromInventory from '../component/ButtonComponents/RemoveFromInvento
 import KTmessage from "../component/MessageComponents/KTmessage";
 import ConfidentiallyMessage from "../component/MessageComponents/ConfidentiallyMessage";
 import OutdatedMessage from "../component/MessageComponents/OutdatedMessage";
-import ModalComponent from "../component/Modal";
 import SendForReviewMass from "../component/ButtonComponents/SendForReviewMass";
-import ShowOnReview from "../component/ButtonComponents/ShowOnReview";
+import ShowOnReviewButton from "../features/showOnReview/showOnReviewButton";
+import {fetchGet} from "../middleware/assyncActions";
+import DuplicateButton from "../features/duplicate/duplicateButton";
 
 const RenderButtons = () => {
-    const statusReducer = useSelector(state => state.statusReducer);
-    const serverData = useSelector(state => state.statusReducer.serverData);
+    const apiReducer = useSelector(state => state.apiReducer);
+    const serverData = useSelector(state => state.buttonReducer.buttons);
+    const isInitialize = useSelector(state => state.buttonReducer.isInitialize);
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchGet("nnsodwebui.displaybuttons"));
+        dispatch(fetchGet());
     }, []);
 
-    if (statusReducer.isLoaded) {
+    if (apiReducer.isLoading) {
         return (
-            <img src={sessionStorage.getItem("LOADER")}/>
+            <img src={sessionStorage.getItem("LOADER")} alt={"Loader"}/>
         )
-    } else if (statusReducer.responseStatus) {
+    } else if (isInitialize) {
         return (
             <React.Fragment>
                 {serverData.hr &&
@@ -162,20 +162,20 @@ const RenderButtons = () => {
                     <RemoveFromInventory/>
                     }
                     {serverData.hrsendforreview.show &&
-                    <SendForReview/>
+                    <SendForReviewButton/>
                     }
                     {serverData.documentsonreview.show &&
-                        <ShowOnReview />
+                        <ShowOnReviewButton />
                     }
-
-                    <ModalComponent/>
+                    {serverData.duplicate.show &&
+                        <DuplicateButton />
+                    }
                 </div>
             </React.Fragment>
         )
     } else {
         return (<div>Проблема при загрузке кнопок</div>)
     }
-
 };
 
 export default RenderButtons;

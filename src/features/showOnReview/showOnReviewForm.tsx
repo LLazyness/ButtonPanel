@@ -1,17 +1,22 @@
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
+import Grid from "@material-ui/core/Grid/index";
+import Button from "@material-ui/core/Button/index";
 import React from "react";
-import {useStyles} from "../style";
-import Paper from "@material-ui/core/Paper";
-import Table from "@material-ui/core/Table";
-import TableRow from "@material-ui/core/TableRow";
-import TableCell from "@material-ui/core/TableCell";
-import TableHead from "@material-ui/core/TableHead";
-import TableBody from "@material-ui/core/TableBody";
+import {useStyles} from "../../component/style";
+import Paper from "@material-ui/core/Paper/index";
+import Table from "@material-ui/core/Table/index";
+import TableRow from "@material-ui/core/TableRow/index";
+import TableCell from "@material-ui/core/TableCell/index";
+import TableHead from "@material-ui/core/TableHead/index";
+import TableBody from "@material-ui/core/TableBody/index";
+import {showOnReviewType} from "./showOnReviewSlice";
 
-const ShowOnReviewComponent = (props) => {
+interface ShowOnReviewFormProps extends showOnReviewType {
+    open: any,
+    close: any,
+}
+
+const ShowOnReviewForm = (props: ShowOnReviewFormProps) => {
     const classes = useStyles();
-
     return (
         <React.Fragment>
             <Grid container spacing={3} direction="column" justify="center" alignItems="center"
@@ -30,7 +35,7 @@ const ShowOnReviewComponent = (props) => {
                         </TableHead>
 
                         <TableBody>
-                            {props.elements.map((element, index) =>
+                            {props.returned.map((element, index) =>
                                 <TableRow key={index + 1}>
                                     <TableCell component="th" scope="row">{index + 1}</TableCell>
                                     <TableCell align="center">{element.name}</TableCell>
@@ -63,4 +68,4 @@ const ShowOnReviewComponent = (props) => {
     )
 };
 
-export default ShowOnReviewComponent
+export default ShowOnReviewForm

@@ -1,19 +1,20 @@
-import React from "react";
-import Button from "@material-ui/core/Button";
-import {modalClose} from "../../actions/Review/SendForReview";
+import * as React from "react";
+import Button from "@material-ui/core/Button/index";
+import {close} from "../../middleware/assyncActions";
 import {useDispatch, useSelector} from "react-redux";
-import Grid from "@material-ui/core/Grid";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
+import Grid from "@material-ui/core/Grid/index";
+import DialogContent from "@material-ui/core/DialogContent/index";
+import DialogTitle from "@material-ui/core/DialogTitle/index";
+import DialogActions from "@material-ui/core/DialogActions/index";
+import {reducers} from "../../types";
 
 const Error = function () {
     const dispatch = useDispatch();
     const handleClose = () => {
-        dispatch(modalClose())
+        dispatch(close());
     };
 
-    const error = useSelector(state => state.reviewReducer.error);
+    const error:string = useSelector((state:reducers) => state.apiReducer.error);
 
     return (
         <div>

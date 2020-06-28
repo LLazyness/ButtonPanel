@@ -1,38 +1,45 @@
-import React from 'react';
+import * as React from "react";
 import {useDispatch, useSelector} from "react-redux";
+import {submit} from "../../middleware/assyncActions";
+import {close} from "../../middleware/assyncActions";
+
 import {
-    changeFlag,
+    sendForReviewType,
+    changeCheck,
+    reset,
+    selectAll,
     setComment,
     setError,
-    setReason,
-    submit,
-    selectAll,
-    setGlobalReason, setGlobalComment, setGlobalError
-} from "../../actions/Review/SendForReview";
-import {modalClose} from "../../actions/Review/SendForReview"
+    setGlobalComment, setGlobalError,
+    setGlobalReason,
+    setReason
+} from "./sendForReviewSlice";
 
-import SendForReviewComponent from "../../component/FormComponent/SendForReviewComponent";
+import SendForReviewComponent from "./sendForReviewForm";
+import {reducers} from "../../types";
+
+
 
 const SendForReviewForm = function () {
     const dispatch = useDispatch();
-    const reasons = useSelector(state => state.reviewReducer.reasons);
-    const checkboxes = useSelector(state => state.reviewReducer);
+    const reasons: Array<string> = useSelector((state:reducers) => state.sendForReviewReducer.reasons);
+    const checkboxes: sendForReviewType = useSelector((state:reducers) => state.sendForReviewReducer);
 
-    const handleChange = (index) => () => {
-        dispatch(changeFlag(index));
+    const handleChange = (index: number) => () => {
+        dispatch(changeCheck(index));
     };
 
-    const changeReason = (index) => event => {
-        dispatch(setReason(index, event.target.value));
+    const changeReason = (index: number) => (event: any) => {
+        dispatch(setReason({index: index, reason: event.target.value}));
     };
 
-    const updateCommentValue = (index) => event => {
-        dispatch(setComment(index, event.target.value))
+    const updateCommentValue = (index: number) => (event: any) => {
+        dispatch(setComment({index: index, comment: event.target.value}));
     };
 
     const handleSubmit = () => {
-        let ok = true;
-        let activeCheckExist = false;
+        let ok: boolean = true;
+        let activeCheckExist: boolean = false;
         if (checkboxes.isSelectAll) {
             //checkbox selectAll is active then all checkboxes is active, check only one reason and comment
             if (checkboxes.globalReason.length < 1) {
@@ -50,6 +57,7 @@ const SendForReviewForm = function () {
                     }
                     activeCheckExist = true
                 }
+                return
             });
         }
 
@@ -59,18 +67,19 @@ const SendForReviewForm = function () {
     };
 
     const handleClose = () => {
-        dispatch(modalClose())
+        dispatch(close());
+        dispatch(reset())
     };
 
     const selectAllChange = () => {
         dispatch(selectAll())
     };
 
-    const changeGlobalReason = () => (event) => {
+    const changeGlobalReason = () => (event:any) => {
         dispatch(setGlobalReason(event.target.value))
     };
 
-    const changeGlobalComment = () => (event) => {
+    const changeGlobalComment = () => (event:any) => {
         dispatch(setGlobalComment(event.target.value))
     };
 
@@ -91,7 +100,7 @@ const SendForReviewForm = function () {
             isRequired = {checkboxes.isRequired}
             globalReason = {checkboxes.globalReason}
             globalComment = {checkboxes.globalComment}
-        />
+         />
     );
 };
 

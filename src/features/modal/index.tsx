@@ -1,9 +1,15 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
+import * as React from "react";
+import {makeStyles} from '@material-ui/core/styles/index';
+import Modal from '@material-ui/core/Modal/index';
 import {useDispatch, useSelector} from "react-redux";
-import {close} from "../../actions/modal/index"
-import {resetState} from "../../actions/Review/SendForReview"
+import {close} from "../../middleware/assyncActions"
+import {ReactChild, ReactFragment, ReactPortal} from "react";
+import {reducers} from "../../types";
+import {modalType} from "./modalSlice";
+
+interface Props {
+    children: JSX.Element[] | JSX.Element | ReactChild | ReactFragment | ReactPortal
+}
 
 function getModalStyle() {
     const top = 50;
@@ -26,33 +32,31 @@ const useStyles = makeStyles(theme => ({
         backgroundColor: theme.palette.background.paper,
         boxShadow: theme.shadows[5],
         padding: theme.spacing(2, 4, 3),
-        overflow:'auto',
+        overflow: 'auto',
     },
 }));
 
 //base modal component, that render result of func variable
-export default function ModalComponent() {
-    const classes = useStyles();
-    const [modalStyle] = React.useState(getModalStyle);
+export default function ModalComponent(props: Props) {
     const dispatch = useDispatch();
-    const isOpen = useSelector(state => state.modal.isOpen);
-    const func = useSelector(state => state.modal.func);
+    const classes = useStyles({});
+    const [modalStyle] = React.useState(getModalStyle);
+    const state: modalType = useSelector((state: reducers) => state.modalReducer);
 
     const handleClose = () => {
         dispatch(close());
-        dispatch(resetState());
     };
 
     return (
         <div>
             <Modal
+                disableEnforceFocus
                 aria-labelledby="simple-modal-title"
                 aria-describedby="simple-modal-description"
-                open={isOpen}
-                onClose={handleClose}
-            >
+                open={state.isOpen}
+                onClose={handleClose}>
                 <div style={modalStyle} className={classes.paper}>
-                    {func}
+                    {props.children}
                 </div>
             </Modal>
         </div>
