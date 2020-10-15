@@ -3,24 +3,25 @@ import {useDispatch, useSelector} from "react-redux";
 import ModalComponent from "../modal";
 import Error from "../modal/error";
 import {reducers} from "../../types";
-import Duplicate from "./duplicate";
-import {loadDuplicates} from "../../middleware/assyncActions";
+import {CreateDuplicateVGO} from "../../middleware/assyncActions";
+import Duplicate from "../duplicateVGO/duplicate";
 
-const DuplicateButton = function () {
+const DuplicateVGOButton = function () {
     const dispatch = useDispatch();
+
+    const isError: boolean = useSelector((state: reducers) => state.apiReducer.isError);
+    const isInitialize: boolean = useSelector((state: reducers) => state.duplicateVGOReducer.isInitialized);
+
 
     //open modal window
     const handleOpen = () => {
-        dispatch(loadDuplicates());
+        dispatch(CreateDuplicateVGO(sessionStorage.getItem('ID')));
     };
-
-    const isError: boolean = useSelector((state: reducers) => state.apiReducer.isError);
-    const isInitialize: boolean = useSelector((state: reducers) => state.duplicateReducer.isInitialize);
 
     return (
         <React.Fragment>
             <button className="nnsod-actions-neutral" type="button" onClick={handleOpen}>
-                Дубликат
+                Создать дубликат ВГО
             </button>
 
             {isInitialize &&
@@ -34,9 +35,9 @@ const DuplicateButton = function () {
             </ModalComponent>
             }
 
-            <div className={"perenos"}/>
+           <div className={"perenos"}/>
         </React.Fragment>
     )
 };
 
-export default DuplicateButton
+export default DuplicateVGOButton

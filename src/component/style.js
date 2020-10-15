@@ -43,6 +43,17 @@ export const useStyles = makeStyles(theme => ({
     duplicateContainer: {
         width: '1000px',
         marginTop: '20px',
-    }
+    },
 
+    personnelNumbersContainer: {
+        width: '700px',
+        marginTop: '20px',
+    },
+    message: {
+        fontSize: '24px'
+    },
+
+    tableCell: {
+        fontSize: '16px'
+    }
 }));

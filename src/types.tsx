@@ -4,8 +4,12 @@ import {apiType} from "./features/api/apiSlice";
 import {showOnReviewType} from "./features/showOnReview/showOnReviewSlice";
 import {modalType} from "./features/modal/modalSlice";
 import {duplicateInitialize, duplicateType} from "./features/duplicate/duplicateSlice";
+import {DuplicateVGOType} from "./features/duplicateVGO/duplicateSlice";
+import {PersonnelNumbersType} from "./features/addPersonnelNumbers/addPersonnelNumbersSlice";
 
 export interface reducers {
+    addPersonnelNumbersReducer: PersonnelNumbersType;
+    duplicateVGOReducer: DuplicateVGOType;
     sendForReviewReducer: sendForReviewType;
     apiReducer: apiType;
     showOnReviewReducer: showOnReviewType;

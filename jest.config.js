@@ -12,6 +12,6 @@ module.exports = {
         "js",
         "jsx",
         "json",
-        "node"
+        "name"
     ],
 };

@@ -6,6 +6,8 @@ import sendForReviewReducer from '../features/sendForReview/sendForReviewSlice';
 import buttonReducer from '../features/buttons/buttonSlice';
 import apiReducer from '../features/api/apiSlice';
 import duplicateReducer from '../features/duplicate/duplicateSlice';
+import duplicateVGOReducer from '../features/duplicateVGO/duplicateSlice';
+import addPersonnelNumbersReducer from "../features/addPersonnelNumbers/addPersonnelNumbersSlice";
 
 polyfill();
 
@@ -16,4 +18,6 @@ export default combineReducers({
     buttonReducer,
     apiReducer,
     duplicateReducer,
+    duplicateVGOReducer,
+    addPersonnelNumbersReducer
 });

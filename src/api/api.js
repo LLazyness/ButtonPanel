@@ -34,3 +34,15 @@ export function getDuplicates() {
     })
 }
 
+export function createDuplicateVGO(id) {
+    let ids = [];
+    ids.push(id);
+    return axios.post(sessionStorage.getItem('URL')
+        + '?func=nnsodwebui.VGO', 'func=nnsodwebui.VGO&ids=' + ids)
+}
+
+export function sendPersonnelNumbers(value) {
+    return axios.post(sessionStorage.getItem('URL')
+        + '?func=nnsodwebui.AddPersonalNumbersList', 'func=nnsodwebui.AddPersonalNumbersList&PersonnelNumbers=' + value + '&Id=' + sessionStorage.getItem("ID"))
+}
+

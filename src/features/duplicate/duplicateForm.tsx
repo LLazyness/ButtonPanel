@@ -10,10 +10,17 @@ import TableHead from "@material-ui/core/TableHead/index";
 import TableBody from "@material-ui/core/TableBody/index";
 import {duplicate, duplicateType} from "./duplicateSlice";
 import {Typography} from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
 
 interface DuplicateFormProps extends duplicateType {
     close: any,
 }
+
+const useLocalStyle = makeStyles(theme => ({
+    root: {
+        fontSize: '16px',
+    }
+}));
 
 const DuplicateForm = (props: DuplicateFormProps) => {
     return (
@@ -32,8 +39,8 @@ interface duplicateProps {
 }
 
 const Duplicates = (props: duplicateProps) => {
-    console.log(props);
     const classes = useStyles();
+    const localClasses = useLocalStyle();
     return (
         <React.Fragment>
             {props.authorDuplicate.length > 0 &&
@@ -47,23 +54,23 @@ const Duplicates = (props: duplicateProps) => {
                     <Paper className={classes.root}>
                         <Table className={classes.table} aria-label="simple table">
                             <TableHead>
-                                <TableRow>
-                                    <TableCell>№</TableCell>
-                                    <TableCell align="center">Тип документа</TableCell>
-                                    <TableCell align="center">Дата создания</TableCell>
-                                    <TableCell align="center">Название</TableCell>
-                                    <TableCell align="center">ФИО создателя дубликата</TableCell>
+                                <TableRow className={classes.tableCell}>
+                                    <TableCell className={localClasses.root} classes = {{root: localClasses.root}}>№</TableCell>
+                                    <TableCell className={localClasses.root} align="center">Тип документа</TableCell>
+                                    <TableCell className={localClasses.root} align="center">Дата создания</TableCell>
+                                    <TableCell className={localClasses.root} align="center">Название</TableCell>
+                                    <TableCell className={localClasses.root} align="center">ФИО создателя дубликата</TableCell>
                                 </TableRow>
                             </TableHead>
 
                             <TableBody>
                                 {props.duplicates.map((element, index) =>
-                                    <TableRow key={index + 1}>
-                                        <TableCell component="th" scope="row">{index + 1}</TableCell>
-                                        <TableCell align="center">{element.type}</TableCell>
-                                        <TableCell align="center">{element.date}</TableCell>
-                                        <TableCell align="center"><a href={element.link}>{element.name}</a></TableCell>
-                                        <TableCell align="center">{element.user}</TableCell>
+                                    <TableRow key={index + 1} >
+                                        <TableCell className={localClasses.root} component="th" scope="row">{index + 1}</TableCell>
+                                        <TableCell className={localClasses.root} align="center">{element.type}</TableCell>
+                                        <TableCell className={localClasses.root} align="center">{element.date}</TableCell>
+                                        <TableCell className={localClasses.root} align="center"><a href={element.link}>{element.name}</a></TableCell>
+                                        <TableCell className={localClasses.root} align="center">{element.user}</TableCell>
                                     </TableRow>
                                 )
                                 }

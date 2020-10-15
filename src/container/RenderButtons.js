@@ -40,6 +40,8 @@ import SendForReviewMass from "../component/ButtonComponents/SendForReviewMass";
 import ShowOnReviewButton from "../features/showOnReview/showOnReviewButton";
 import {fetchGet} from "../middleware/assyncActions";
 import DuplicateButton from "../features/duplicate/duplicateButton";
+import DuplicateVGOButton from "../features/duplicateVGO/duplicateButton";
+import AddPersonnelNumbersButton from "../features/addPersonnelNumbers/addPersonnelNumbersButton";
 
 const RenderButtons = () => {
     const apiReducer = useSelector(state => state.apiReducer);
@@ -144,7 +146,7 @@ const RenderButtons = () => {
                     <ProcessingInSAPHCM isProcessed={serverData.processinginsaphcm.isProcessed}/>
                     }
                     {serverData.addpersonalnumberlist.show &&
-                    <AddPersonalNumbersList/>
+                    <AddPersonnelNumbersButton/>
                     }
                     {serverData.xrefconnect.show &&
                     <XRefConnect/>
@@ -169,6 +171,9 @@ const RenderButtons = () => {
                     }
                     {serverData.duplicate.show &&
                         <DuplicateButton />
+                    }
+                    {serverData.duplicatevgo.show &&
+                    <DuplicateVGOButton />
                     }
                 </div>
             </React.Fragment>

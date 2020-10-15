@@ -2,9 +2,18 @@ import {modalClose, modalOpen} from '../features/modal/modalSlice';
 import {initReturned} from "../features/showOnReview/showOnReviewSlice";
 import {init, sendForReviewType} from "../features/sendForReview/sendForReviewSlice";
 import {requestGet, requestGetFailure, requestGetSuccess} from "../features/api/apiSlice";
-import {getAttachForReview, getAttachOnReview, getButtons, getDuplicates, sendForReviewHR} from "../api/api";
+import {
+    getAttachForReview,
+    getAttachOnReview,
+    getButtons,
+    getDuplicates,
+    sendForReviewHR,
+    createDuplicateVGO,
+    sendPersonnelNumbers
+} from "../api/api";
 import {initButtons} from "../features/buttons/buttonSlice";
 import {initDuplicates, initializedDuplicate} from "../features/duplicate/duplicateSlice";
+import {initialize, setDuplicateVGONodeInfo} from "../features/duplicateVGO/duplicateSlice";
 
 export function fetchGet() {
     return (dispatch: any) => {
@@ -53,7 +62,6 @@ export function loadDuplicates() {
                 dispatch(initDuplicates(response.data));
                 dispatch(modalOpen());
             }).catch(function (error) {
-                console.log("inside catch");
                 dispatch(initializedDuplicate());
                 dispatch(requestGetFailure(error.response.data.errMsg));
                 dispatch(modalOpen())
@@ -77,8 +85,39 @@ export function submit(reviewState: sendForReviewType) {
     }
 }
 
+export function CreateDuplicateVGO(id: string | null) {
+    return (dispatch: any) => {
+        return createDuplicateVGO(id)
+            .then((response) => {
+                    dispatch(setDuplicateVGONodeInfo(response.data));
+                    dispatch(modalOpen());
+                }
+            )
+            .catch((error) => {
+                    dispatch(requestGetFailure(error.response.data.errMsg));
+                    dispatch(initialize());
+                    dispatch(modalOpen());
+                }
+            )
+    }
+}
+
+export function SubmitPersonnelNumbers(value: string) {
+    return (dispatch: any) => {
+        return sendPersonnelNumbers(value)
+            .then(() => {
+                dispatch(close());
+                document.location.reload(true);
+                }
+            )
+            .catch((error) => {
+                    dispatch(requestGetFailure(error.response.data.errMsg));
+                }
+            )
+    }
+}
+
 export function close() {
-    console.log("close modal");
     return (dispatch: any) => {
         dispatch(modalClose());
     }
