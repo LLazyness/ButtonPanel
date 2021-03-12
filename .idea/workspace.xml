@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a0f323-6598-499b-883e-6e771007e080" name="Default" comment="feat: added TS and tests">
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/api/api.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/api/apiSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/buttons/button.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/buttons/buttonSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/duplicate/duplicate.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/duplicate/duplicate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/duplicate/duplicateButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/duplicate/duplicateForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/duplicate/duplicateSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/modal/modal.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/modal/modalSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/sendForReview/sendForReview.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/sendForReview/sendForReviewButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/sendForReview/sendForReviewSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/showOnReview/showOnReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/showOnReview/showOnReviewButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/showOnReview/showOnReviewSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/assyncActions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/escape.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/basedOnExist/basedOnExistCardButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/draft/draftButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/Review/SendForReview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/modal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/SendForReview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/ShowOnReview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FormComponent/SendForReviewComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/sendForReview/sendForReviewForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FormComponent/ShowOnReviewComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/showOnReview/showOnReviewForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Modal/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/modal/error.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/modal/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/ButtonLogic/SendForReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/sendForReview/sendForReview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/ButtonLogic/ShowOnReview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/RenderButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/RenderButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/Review/SendForReview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/ServerData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/modal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/duplicateVGO/duplicateButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/duplicateVGO/duplicateButton.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,10 +27,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/api/apiSlice.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/container/RenderButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tslint.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/types.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/duplicateVGO/duplicateSlice.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/configureStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="253">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -77,33 +118,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/api/api.test.tsx">
+        <entry file="file://$PROJECT_DIR$/src/api/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="46">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewForm.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,23 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sendForReviewReducer</find>
-      <find>sendForReviewHR</find>
-      <find>ModalComponent</find>
-      <find>loadReturnedAttachments</find>
-      <find>SendForReviewForm</find>
-      <find>interface</find>
-      <find>SendForReviewComponent</find>
-      <find>reducers</find>
-      <find>StateType</find>
-      <find>any</find>
-      <find>submit</find>
-      <find>jest</find>
-      <find>requestGet</find>
-      <find>duplicate</find>
-      <find>initDuplicates</find>
-      <find>CloseButton</find>
-      <find>duplicateAuthor</find>
       <find>modalContainer</find>
       <find>min</find>
       <find>height</find>
@@ -153,16 +156,34 @@
       <find>changeCheck</find>
       <find>setReason</find>
       <find>isRequired</find>
+      <find>apiSlice</find>
+      <find>combineReducers</find>
+      <find>Store</find>
+      <find>chunk</find>
+      <find>duplicateContainer</find>
+      <find>PickForProcessing</find>
+      <find>addPersonnelNumbersReducer</find>
+      <find>modalOpen</find>
+      <find>NODENAME</find>
+      <find>SubmitPersonnelNumbers</find>
+      <find>escape</find>
+      <find>Взя</find>
+      <find>ОК</find>
+      <find>useEf</find>
+      <find>apiRed</find>
+      <find>thunk</find>
+      <find>applyMiddleware</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>serverData</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\ButtonComponents</dir>
       <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features</dir>
-      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src</dir>
+      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\build\static\js</dir>
+      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\component\ButtonComponents</dir>
       <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel</dir>
+      <dir>C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -171,21 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/src/actions/actions.js" />
-        <option value="$PROJECT_DIR$/src/actions/Review/SendForReview.js" />
-        <option value="$PROJECT_DIR$/src/actions/SendForReview.js" />
-        <option value="$PROJECT_DIR$/src/features/showOnReview/showOnReviewButton.js" />
-        <option value="$PROJECT_DIR$/src/middleware/assyncActions.js" />
-        <option value="$PROJECT_DIR$/tslint.json" />
-        <option value="$PROJECT_DIR$/src/features/api/apiSlice.js" />
-        <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReviewSlice.js" />
-        <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReview.js" />
-        <option value="$PROJECT_DIR$/src/features/showOnReview/showOnReviewSlice.js" />
-        <option value="$PROJECT_DIR$/src/features/modal/error.js" />
-        <option value="$PROJECT_DIR$/src/features/modal/index.js" />
-        <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReviewButton.js" />
-        <option value="$PROJECT_DIR$/src/features/showOnReview/showOnReview.tsx" />
         <option value="$PROJECT_DIR$/src/utils/escape.js" />
         <option value="$PROJECT_DIR$/src/types.ts" />
         <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReviewButton.tsx" />
@@ -201,14 +207,8 @@
         <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/src/features/diplicate/duplicateSlice.tsx" />
         <option value="$PROJECT_DIR$/src/features/diplicate/duplicateButton.tsx" />
-        <option value="$PROJECT_DIR$/src/reducers/index.tsx" />
-        <option value="$PROJECT_DIR$/src/types.tsx" />
-        <option value="$PROJECT_DIR$/src/api/api.js" />
         <option value="$PROJECT_DIR$/src/features/modal/modalSlice.tsx" />
         <option value="$PROJECT_DIR$/src/features/showOnReview/showOnReviewButton.tsx" />
-        <option value="$PROJECT_DIR$/src/middleware/assyncActions.tsx" />
-        <option value="$PROJECT_DIR$/src/features/duplicate/duplicateButton.tsx" />
-        <option value="$PROJECT_DIR$/src/component/style.js" />
         <option value="$PROJECT_DIR$/src/features/api/api.test.tsx" />
         <option value="$PROJECT_DIR$/src/features/api/apiSlice.tsx" />
         <option value="$PROJECT_DIR$/src/features/buttons/buttonSlice.tsx" />
@@ -216,12 +216,33 @@
         <option value="$PROJECT_DIR$/src/features/duplicate/duplicateSlice.tsx" />
         <option value="$PROJECT_DIR$/src/features/duplicate/duplicate.test.tsx" />
         <option value="$PROJECT_DIR$/src/features/modal/modal.test.tsx" />
-        <option value="$PROJECT_DIR$/src/features/duplicate/duplicateForm.tsx" />
         <option value="$PROJECT_DIR$/src/features/duplicate/duplicate.tsx" />
-        <option value="$PROJECT_DIR$/src/container/RenderButtons.js" />
         <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReviewSlice.tsx" />
         <option value="$PROJECT_DIR$/src/features/sendForReview/sendForReview.test.tsx" />
         <option value="$PROJECT_DIR$/src/features/showOnReview/showOnReview.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/KTmessage.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/ConfidentiallyMessage.js" />
+        <option value="$PROJECT_DIR$/src/component/MessageComponents/OutdatedMessage.js" />
+        <option value="$PROJECT_DIR$/src/features/duplicate/duplicateForm.tsx" />
+        <option value="$PROJECT_DIR$/src/features/duplicate/duplicateButton.tsx" />
+        <option value="$PROJECT_DIR$/src/features/duplicateVGO/duplicateForm.tsx" />
+        <option value="$PROJECT_DIR$/src/features/duplicateVGO/duplicate.tsx" />
+        <option value="$PROJECT_DIR$/src/types.tsx" />
+        <option value="$PROJECT_DIR$/src/reducers/index.tsx" />
+        <option value="$PROJECT_DIR$/src/features/duplicateVGO/duplicateSlice.tsx" />
+        <option value="$PROJECT_DIR$/src/component/style.js" />
+        <option value="$PROJECT_DIR$/src/api/api.js" />
+        <option value="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersButton.tsx" />
+        <option value="$PROJECT_DIR$/src/middleware/assyncActions.tsx" />
+        <option value="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersSlice.tsx" />
+        <option value="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersForm.tsx" />
+        <option value="$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbers.tsx" />
+        <option value="$PROJECT_DIR$/src/features/basedOnExist/draftButton.js" />
+        <option value="$PROJECT_DIR$/src/features/draft/draftButton.js" />
+        <option value="$PROJECT_DIR$/src/features/basedOnExist/basedOnExistCardButton.js" />
+        <option value="$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js" />
+        <option value="$PROJECT_DIR$/src/features/duplicateVGO/duplicateButton.tsx" />
+        <option value="$PROJECT_DIR$/src/container/RenderButtons.js" />
       </list>
     </option>
   </component>
@@ -232,10 +253,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="6" />
-    <option name="width" value="1932" />
-    <option name="height" value="1041" />
+    <option name="y" value="1" />
+    <option name="width" value="1616" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -277,6 +297,18 @@
               <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
               <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,7 +322,19 @@
               <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
               <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ButtonPanel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ButtonPanel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +348,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blueprint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Workspace" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -313,19 +357,19 @@
     <property name="ts.external.directory.path" value="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\duplicateVGO" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\sendForReview" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\modal" />
+      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\duplicate" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\actions" />
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\sendForReview" />
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\showOnReview" />
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\buttons" />
       <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\ShowOnReview" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\sendForReview" />
-      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\modal" />
-      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\duplicate" />
-      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\buttons" />
-      <recent name="C:\Users\vgallyamov\WebstormProjects\ButtonPanel\src\features\diplicate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -466,8 +510,21 @@
       <workItem from="1579178191681" duration="95477000" />
       <workItem from="1583310418897" duration="10451000" />
       <workItem from="1585252649109" duration="276000" />
-      <workItem from="1593358850660" duration="348000" />
+      <workItem from="1593358850660" duration="7430000" />
+      <workItem from="1597237603230" duration="9837000" />
+      <workItem from="1598866878615" duration="22624000" />
+      <workItem from="1599682936995" duration="2894000" />
+      <workItem from="1599857767055" duration="64592000" />
+      <workItem from="1615446791276" duration="624000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: added TS and tests">
+      <created>1593359216358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593359216358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -503,7 +560,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="847151000" />
+    <option name="totallyTimeSpent" value="954804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,48 +575,49 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118019" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49947312" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48429036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30010834" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19501625" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.18743229" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.3206934" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24946696" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32959402" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19546892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48429036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48429036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30010834" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19501625" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24946696" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32959402" />
     </layout-to-restore>
   </component>
@@ -574,267 +632,105 @@
     <SUITE FILE_PATH="coverage/ButtonPanel$localhost_3000.dat" NAME="localhost:3000 Coverage Results" MODIFIED="1574190902618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Delete.js">
+    <entry file="file://$PROJECT_DIR$/src/component/MessageComponents/KTmessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="23">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PrintCorrectionSheet.js">
+    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReview.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="104" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="104" />
+        <state relative-caret-position="736">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/MessageComponents/OutdatedMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonLogic/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/reducers/modal/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/actions/modal/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SendForReviewMass.js">
+    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateSlice.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="159" selection-start-line="4" selection-start-column="159" selection-end-line="4" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.9e18fcba.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.63812eb1.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.cb86fa3c.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/src/reducers/Review/SendForReview.js" />
-    <entry file="file://$PROJECT_DIR$/src/reducers/ServerData.js" />
-    <entry file="file://$PROJECT_DIR$/src/actions/actions.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/styles/makeStyles/makeStyles.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/escape.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="5314" column="6" selection-end-line="18583" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configureStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/types.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewButton.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReviewForm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/buttons/button.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/buttons/buttonSlice.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/modal/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/modal/error.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/modal/modalSlice.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="123">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewSlice.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicate.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/modal/modalSlice.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/RenderButtons.js">
+    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicate.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateForm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateButton.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="-69">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CreateDuplicate.js">
+    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/buttons/buttonSlice.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReviewButton.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/assyncActions.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicate.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReview.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -843,95 +739,331 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReviewSlice.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="22" selection-start-line="26" selection-start-column="4" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="-1437">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/modal/modal.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateSlice.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/modal/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/api/apiSlice.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReviewButton.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="12">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReview.test.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReview.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="81">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/CopyKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/sendForReview/sendForReviewForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1817">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersSlice.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbers.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/addPersonnelNumbers/addPersonnelNumbersButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/escape.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/draft/draftButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/SetPerformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/PickForProcessing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AddPersonalNumbersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/BankStatementCardRegistryLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/Completeness.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicate.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicate/duplicateForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicateVGO/duplicateForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicateVGO/duplicate.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicateVGO/duplicateButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16950" column="253" selection-start-line="16950" selection-start-column="253" selection-end-line="16950" selection-end-column="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/basedOnExist/basedOnExistCardButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/api/api.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ButtonComponents/AcceptOriginal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/assyncActions.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/api/apiSlice.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/RenderButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/duplicateVGO/duplicateSlice.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="253">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/api/api.test.tsx">
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="46">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/showOnReview/showOnReviewForm.tsx">
+    <entry file="file://$PROJECT_DIR$/src/types.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="207">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

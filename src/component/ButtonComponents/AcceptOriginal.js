@@ -9,7 +9,7 @@ class AcceptOriginal extends Component {
     render() {
         return (
             <React.Fragment>
-                <input className="nnsod-actions-neutral" type="button" onClick={this.handleClick}
+                <input className="nnsod-actions-positive" type="button" onClick={this.handleClick}
                        value="Принять ПД"/>
                 <div className={"perenos"}/>
             </React.Fragment>

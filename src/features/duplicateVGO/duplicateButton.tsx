@@ -5,6 +5,7 @@ import Error from "../modal/error";
 import {reducers} from "../../types";
 import {CreateDuplicateVGO} from "../../middleware/assyncActions";
 import Duplicate from "../duplicateVGO/duplicate";
+import {useState} from "react";
 
 const DuplicateVGOButton = function () {
     const dispatch = useDispatch();
@@ -12,15 +13,17 @@ const DuplicateVGOButton = function () {
     const isError: boolean = useSelector((state: reducers) => state.apiReducer.isError);
     const isInitialize: boolean = useSelector((state: reducers) => state.duplicateVGOReducer.isInitialized);
 
+    const [disabled, setDisabled] = useState(false);
 
     //open modal window
     const handleOpen = () => {
+        setDisabled(!disabled);
         dispatch(CreateDuplicateVGO(sessionStorage.getItem('ID')));
     };
 
     return (
         <React.Fragment>
-            <button className="nnsod-actions-neutral" type="button" onClick={handleOpen}>
+            <button className="nnsod-actions-neutral" type="button" onClick={handleOpen} disabled={disabled}>
                 Создать дубликат ВГО
             </button>
 

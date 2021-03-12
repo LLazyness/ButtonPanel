@@ -25,7 +25,6 @@ import Refuse from '../component/ButtonComponents/Refuse';
 import Linked from '../component/ButtonComponents/Linked';
 import Print from '../component/ButtonComponents/Print';
 import FillingStorageAttributes from '../component/ButtonComponents/FillingStorageAttributes';
-import AddPersonalNumbersList from "../component/ButtonComponents/AddPersonalNumbersList";
 import ReceivedOriginals from '../component/ButtonComponents/ReceivedOriginals';
 import XRefConnect from '../component/ButtonComponents/XRefConnect';
 import EditInternalInventoryReport from '../component/ButtonComponents/EditInternalInventoryReport';
@@ -42,6 +41,8 @@ import {fetchGet} from "../middleware/assyncActions";
 import DuplicateButton from "../features/duplicate/duplicateButton";
 import DuplicateVGOButton from "../features/duplicateVGO/duplicateButton";
 import AddPersonnelNumbersButton from "../features/addPersonnelNumbers/addPersonnelNumbersButton";
+import DraftButton from "../features/draft/draftButton";
+import BasedOnExistButton from "../features/basedOnExist/basedOnExistCardButton";
 
 const RenderButtons = () => {
     const apiReducer = useSelector(state => state.apiReducer);
@@ -167,13 +168,19 @@ const RenderButtons = () => {
                     <SendForReviewButton/>
                     }
                     {serverData.documentsonreview.show &&
-                        <ShowOnReviewButton />
+                    <ShowOnReviewButton />
                     }
                     {serverData.duplicate.show &&
-                        <DuplicateButton />
+                    <DuplicateButton />
                     }
                     {serverData.duplicatevgo.show &&
                     <DuplicateVGOButton />
+                    }
+                    {serverData.draft.show &&
+                    <DraftButton />
+                    }
+                    {serverData.basedonexistcard.show &&
+                    <BasedOnExistButton />
                     }
                 </div>
             </React.Fragment>

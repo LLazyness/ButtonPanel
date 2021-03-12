@@ -17,7 +17,22 @@ const AddPersonnelNumbers = function () {
     };
 
     const handleSubmit = () => {
-        dispatch(SubmitPersonnelNumbers(state.personnelNumbers))
+        let ok = true;
+        let errorNumbers = "";
+        let array = state.personnelNumbers.split("\n");
+        array.map((value) => {
+            if(isNaN(Number(value))){
+                errorNumbers += value + " ";
+                ok = false;
+            }
+        });
+
+        if (ok)
+            dispatch(SubmitPersonnelNumbers(state.personnelNumbers));
+        else {
+
+            alert("В списке содержится некорректный табельный номер " + errorNumbers.slice(0, -1) + ". Табельный номер должен состоять только из цифр.");
+        }
     };
 
     const set = () => (event:any) => {

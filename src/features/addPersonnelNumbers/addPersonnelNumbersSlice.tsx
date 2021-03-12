@@ -2,12 +2,12 @@ import {createSlice} from '@reduxjs/toolkit';
 
 export interface PersonnelNumbersType {
     personnelNumbers: string,
-    isInitialized: boolean
+    isInitialized: boolean,
 }
 
 const initialState: PersonnelNumbersType= {
     personnelNumbers: "",
-    isInitialized: false
+    isInitialized: false,
 };
 
 export const addPersonnelNumbersSlice = createSlice({

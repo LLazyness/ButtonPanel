@@ -27,7 +27,7 @@ const AddPersonnelNumbersForm = (props: FormProps) => {
             <Grid container spacing={3} direction="column" justify="center" alignItems="center" className={classes.personnelNumbersContainer}>
 
                     <Typography className={classes.modalHeader} classes = {{root: localClass.root}}>
-                        <h1>Укажите табельные номера</h1>
+                        <h1>Введите табельные номера строго в столбец</h1>
                         <TextField
                             id="outlined-multiline-static"
                             label="Табельные номера"
