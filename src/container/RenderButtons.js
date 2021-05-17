@@ -43,6 +43,8 @@ import DuplicateVGOButton from "../features/duplicateVGO/duplicateButton";
 import AddPersonnelNumbersButton from "../features/addPersonnelNumbers/addPersonnelNumbersButton";
 import DraftButton from "../features/draft/draftButton";
 import BasedOnExistButton from "../features/basedOnExist/basedOnExistCardButton";
+import SendTax from "../features/sendTax/sendTax";
+import {RemoveKDInventoryButton} from "../features/removeKDInventory/removeButton";
 
 const RenderButtons = () => {
     const apiReducer = useSelector(state => state.apiReducer);
@@ -181,6 +183,12 @@ const RenderButtons = () => {
                     }
                     {serverData.basedonexistcard.show &&
                     <BasedOnExistButton />
+                    }
+                    {serverData.sendtax.show &&
+                    <SendTax />
+                    }
+                    {serverData.removeKdInventory.show &&
+                    <RemoveKDInventoryButton />
                     }
                 </div>
             </React.Fragment>

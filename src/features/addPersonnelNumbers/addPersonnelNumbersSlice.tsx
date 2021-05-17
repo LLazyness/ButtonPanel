@@ -19,7 +19,6 @@ export const addPersonnelNumbersSlice = createSlice({
         },
 
         initialize: (state) => {
-            console.log("da");
             state.isInitialized = true;
         },
 

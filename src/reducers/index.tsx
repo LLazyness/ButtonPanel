@@ -8,6 +8,7 @@ import apiReducer from '../features/api/apiSlice';
 import duplicateReducer from '../features/duplicate/duplicateSlice';
 import duplicateVGOReducer from '../features/duplicateVGO/duplicateSlice';
 import addPersonnelNumbersReducer from "../features/addPersonnelNumbers/addPersonnelNumbersSlice";
+import removeKDInventoryReducer from "../features/removeKDInventory/removeButtonSlice";
 
 polyfill();
 
@@ -19,5 +20,6 @@ export default combineReducers({
     apiReducer,
     duplicateReducer,
     duplicateVGOReducer,
-    addPersonnelNumbersReducer
+    addPersonnelNumbersReducer,
+    removeKDInventoryReducer
 });

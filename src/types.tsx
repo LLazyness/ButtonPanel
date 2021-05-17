@@ -6,8 +6,10 @@ import {modalType} from "./features/modal/modalSlice";
 import {duplicateInitialize, duplicateType} from "./features/duplicate/duplicateSlice";
 import {DuplicateVGOType} from "./features/duplicateVGO/duplicateSlice";
 import {PersonnelNumbersType} from "./features/addPersonnelNumbers/addPersonnelNumbersSlice";
+import {removeKDInventoryType} from "./features/removeKDInventory/removeButtonSlice"
 
 export interface reducers {
+    removeKDInventoryReducer: removeKDInventoryType;
     addPersonnelNumbersReducer: PersonnelNumbersType;
     duplicateVGOReducer: DuplicateVGOType;
     sendForReviewReducer: sendForReviewType;
